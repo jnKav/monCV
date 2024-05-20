@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/asset/images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Accueil - Jonathan Kwakwa</title>
+    </head>
+    <body>
+        <header>
+            <nav class="menuContainer">
+                <a href="index.html" class="lien-icone">
+                    <img src="/asset/images/logojnk.png" alt="Logo">
+                </a>
+                <div class="menuListe">
+                    <ul>
+                        <li>
+                            <a href="cv.html">CV</i></a>
+                        </li>
+                        <li>
+                            <a href="projets.html">Projets</i></a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="contactContainer">
+            <div class="infoContainer">
+                <h1>Contact</h1>
+                <section>
+                    <h3>Téléphone</h3>
+                    <p><a href="tel:+243818742009">+243818742009</a></p>
+                </section>
+                <section>
+                    <h3>E-mail</h3>
+                    <p><a href="mailto:jkwakwa.kav@gmail.com">jkwakwa.kav@gmail.com</a></p>
+                </section>
+            </div>
+            <div class="formContainer">
+                <form id="contactForm">
+                    
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="telephone">Numéro de téléphone</label>
+                    <input type="tel" name="telephone" id="telephone" required>
+        
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="10" required></textarea>
+                    
+                    <button type="submit">Envoyer</button>
+                </form>
+                <p id="status"></p>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <h3>Téléphone</h3>
+                <p><a href="tel:+243818742009">+243 818 742 009</a></p>
+            </div>
+            <div>
+                <h3>E-mail</h3>
+                <p><a href="mailto:jkwakwa.kav@gmail.com">jkwakwa.kav@gmail.com</a></p>
+            </div>
+            <div class="lienSocial">
+                <h3>Suivez-moi</h3>
+                <p> 
+                    <a href="https://web.facebook.com/jnKav26">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/KavJonathan">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/jnkav26/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </p>
+            </div>
+            <div>
+                <p>&copy 2024 Jonathan Kwakwa. Tous droits revservé.</p>
+            </div>
+        </footer>
+        <script src="scripts.js"></script>
+    </body>
+</html>
